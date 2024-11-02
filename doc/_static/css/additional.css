@@ -1,0 +1,28 @@
+audio {
+    width: 90%;
+}
+
+.kbd
+{
+	color: #008009;
+}
+
+
+.wy-nav-content {
+    max-width: none;
+}
+
+.rst-content tt.literal, .rst-content code.literal {
+	color: #0000FF;
+}
+/*
+This is in addition to the sphinx_rtd_theme (Read The Docs theme)
+and is loaded by these lines in conf.py:
+
+def setup(app):
+  app.add_css_file("css/additional.css")  # refers to the file _static/css/additional.css
+
+see:
+
+https://stackoverflow.com/questions/32079200/how-do-i-set-up-custom-styles-for-restructuredtext-sphinx-readthedocs-etc
+*/

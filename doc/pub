@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# we need the conda command to work within this bash script:
+__conda_setup="$(~/miniconda3/bin/conda 'shell.bash' 'hook' 2> /dev/null)"
+
+eval "$__conda_setup"
+
+conda activate sphinx_docs
+
+printf "\033[38;5;2mThe conda environment for sphinx_docs publishing is currently:\n    %s\n\n\033[0m" "$(which python)"
+
+make html
+rsync -r --delete _build/html/ zeus:/mnt/data/www/ramesha_papanna
