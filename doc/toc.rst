@@ -7,5 +7,3 @@ Table of Contents
 
   index
   editors_checklist
-  auto_generated_links
-
