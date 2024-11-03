@@ -2,6 +2,10 @@
 introduction to Ramesha Papanna
 *******************************
 
+Home phone was on his webpage here, his wife answered:
+
+https://med.uth.edu/obgyn/2022/10/28/ramesha-papanna-md-mph/
+
 https://namfm.com/physicians/
 
 Knows Dr. Jasbar Singh.
