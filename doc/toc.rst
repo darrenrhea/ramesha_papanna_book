@@ -5,5 +5,6 @@ Table of Contents
   :maxdepth: 2
   :caption: Contents:
 
+  auto_generated_links
   index
   editors_checklist
